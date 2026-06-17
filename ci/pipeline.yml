@@ -525,6 +525,7 @@ resources:
       owner: DefectDojo
       repository: django-DefectDojo
       access_token: ((cg-ci-bot-ghtoken))
+      semver_constraint: "2.58.*"
 
 resource_types:
   - name: registry-image
