@@ -102,4 +102,5 @@ instance_groups:
       - name: ((defectdojo_network))
     vm_extensions:
       - ((defectdojo_extension))
+      - 15GB_ephemeral_disk
       - 10GB_root_disk
